@@ -127,7 +127,7 @@ body {
     line-height: 1.5;
 }
 
-.container-paragraph p a {
+.container-content a {
     color: #193230;
     font-size: x-large;
 }
@@ -184,5 +184,35 @@ body {
 
 
 @media screen and (max-width: 767px) {
+    .container-image {
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container-image-nav {
+        height: 30px;
+    }
+
+    .container-navbar h4 {
+        font-size: small;
+    }
     
+    .container-image-navbar {
+        padding: 0;
+        padding-right: 30px;
+    }
+
+    .container-paragraph p{
+        width: 100%;
+    }
+
+    .container-content a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-image-content {
+        display: none;
+    }
 }
