@@ -214,6 +214,10 @@ body {
         text-align: center;
     }
 
+    .container-content h1 {
+        font-size: x-large;
+    }
+
     .container-image-content {
         display: none;
     }
