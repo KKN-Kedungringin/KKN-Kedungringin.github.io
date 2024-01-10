@@ -215,4 +215,8 @@ body {
     .container-image-content {
         display: none;
     }
+
+    .container-image-alter img {
+        width: 100%;
+    }
 }
